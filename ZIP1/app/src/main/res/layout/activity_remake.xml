@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/recounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="1" />
+
+    <ImageView
+        android:id="@+id/reimageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+
+    <Button
+        android:id="@+id/reSound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="音声再生" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/recamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="カメラ" />
+
+        <Button
+            android:id="@+id/recamerafile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="カメラファイル" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/rokuon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="録音" />
+
+        <Button
+            android:id="@+id/rerokuon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="録音ファイル" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/renext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="次へ" />
+
+    <Button
+        android:id="@+id/refinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="終了" />
+</LinearLayout>

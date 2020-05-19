@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/counter3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="1" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+
+
+    <Button
+        android:id="@+id/next3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="次へ" />
+
+    <Button
+        android:id="@+id/remake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修正" />
+
+    <Button
+        android:id="@+id/make"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="作成" />
+</LinearLayout>
